@@ -9,6 +9,9 @@ DEVICE_PATH := device/xiaomi/garnet
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/garnet-miuicamera/products/board.mk
+
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \
