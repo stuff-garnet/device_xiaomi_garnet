@@ -1752,7 +1752,6 @@ product/etc/permissions/UimService.xml
 product/framework/uimgbalibrary.jar
 product/framework/uimgbamanagerlibrary.jar
 product/framework/uimservicelibrary.jar
-system_ext/app/AtFwd2/AtFwd2.apk
 system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/app/QtiTelephony/QtiTelephony.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1788,7 +1787,6 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/ims/ims.apk
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/app/IWlanService/IWlanService.apk
-vendor/bin/ATFWD-daemon
 vendor/bin/adpl
 vendor/bin/hw/qcrilNrd
 vendor/bin/ims_rtp_daemon
@@ -1842,7 +1840,6 @@ vendor/etc/qcril_database/upgrade/other/6_version_change_property_table_qcrilnr.
 vendor/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql
-vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/ssg/ta_config.json
@@ -1935,7 +1932,6 @@ vendor/lib64/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.data.ka-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims-V7-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so
