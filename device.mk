@@ -323,7 +323,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libOmxCore \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk.vendor \
     libstagefrighthw \
     libstagefright_softomx_plugin.vendor
 
