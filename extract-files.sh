@@ -77,6 +77,14 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i 's/on charger/on property:init.svc.vendor.charger=running/g' "${2}"
             ;;
+        vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "setsockopt: 1" "${2}" || echo "setsockopt: 1" >> "${2}"
+            ;;
+        vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
+            [ "$2" = "" ] && return 0
+            sed -ni '/dolby/!p' "${2}"
+            ;;
         vendor/etc/media_codecs_parrot_v0.xml)
             [ "$2" = "" ] && return 0
             sed -i -E '/media_codecs_(google_audio|google_c2|google_telephony|vendor_audio)/d' "${2}"
