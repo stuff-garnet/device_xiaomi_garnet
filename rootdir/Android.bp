@@ -54,6 +54,12 @@ prebuilt_etc {
 }
 
 sh_binary {
+    name: "init.qcom.early_boot.sh",
+    src: "etc/init.qcom.early_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.sim.restart.sh",
     src: "system/bin/init.sim.restart.sh",
 }
