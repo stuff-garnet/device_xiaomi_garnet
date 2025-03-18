@@ -18,7 +18,6 @@ AB_OTA_PARTITIONS := \
     dtbo \
     odm \
     product \
-    recovery \
     system \
     system_ext \
     vbmeta \
