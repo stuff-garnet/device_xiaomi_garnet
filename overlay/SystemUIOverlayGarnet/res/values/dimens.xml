@@ -15,7 +15,14 @@
  * limitations under the License.
 */
 -->
-<resources>
-    <!-- Pixel pitch of the device. um/px -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="keyguard_indication_margin_bottom">10dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">10dp</dimen>
+    <dimen name="status_bar_padding_top">3dp</dimen>
+    <dimen name="status_bar_padding_start">7dp</dimen>
+    <dimen name="status_bar_padding_end">0dp</dimen>
+    <dimen name="rounded_corner_content_padding">47px</dimen>
+    <dimen name="status_bar_header_height_keyguard">94px</dimen>
+    <dimen name="keyguard_lock_height">130dp</dimen>
     <item name="pixel_pitch" format="float" type="dimen">56.96</item>
 </resources>
