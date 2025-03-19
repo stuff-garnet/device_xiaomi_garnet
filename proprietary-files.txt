@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from garnet OS2.0.2.0.VNRMIXM
+# All unpinned blobs below are extracted from garnet OS2.0.4.0.VNRMIXM
 
 # Current blobs with ELF checks disabled:
 # libar-pal depends on libagmclient, which is a gnu makefile target
