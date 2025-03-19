@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Perfis térmicos -->
+    <string name="thermal_title">Perfis térmicos</string>
+    <string name="thermal_summary">Ajuste perfis térmicos por aplicativo para obter o melhor desempenho</string>
+    <string name="thermal_default">Sem otimização</string>
+    <string name="thermal_benchmark">Desempenho</string>
+    <string name="thermal_browser">Navegador</string>
+    <string name="thermal_camera">Câmera</string>
+    <string name="thermal_dialer">Discador</string>
+    <string name="thermal_gaming">Jogos</string>
+    <string name="thermal_navigation">Navegação</string>
+    <string name="thermal_streaming">Streaming</string>
+    <string name="thermal_video">Vídeo</string>
+
+    <!-- Taxa de atualização por aplicativo -->
+    <string name="refresh_title">Taxa de atualização por aplicativo</string>
+    <string name="refresh_summary">Defina a taxa de atualização máxima para um aplicativo específico</string>
+    <string name="refresh_default">Padrão</string>
+    <string name="refresh_standard">60Hz</string>
+    <string name="refresh_extreme">120Hz</string>
+    <string name="refresh_land">60Hz no modo paisagem</string>    
+
+    <!-- Configurações do Doze -->
+    <string name="doze_brightness_low">Brilho baixo</string>
+    <string name="doze_brightness_high">Brilho alto</string>
+    <string name="doze_brightness_adaptive">Brilho adaptável</string>
+    <string name="doze_brightness_title">Nível de brilho do Doze</string>
+    <string name="doze_brightness_summary">Nível de brilho da tela de ativação do Doze (% do brilho máximo permitido)</string>
+
+    <!-- Alto-falante limpo -->
+   <string name="clear_speaker_title">Limpar Auto-falante</string>
+   <string name="clear_speaker_summary">Reproduza um áudio de 30 segundos para limpar o alto-falante</string>
+   <string name="clear_speaker_description">Execute este recurso uma ou duas vezes se perceber que seu alto-falante está levemente obstruído por poeira. Ajuste o volume de mídia para o máximo.\n\nSe o alto-falante estiver muito obstruído, execute este recurso de 2 a 5 vezes enquanto agita o dispositivo com o alto-falante voltado para baixo.</string>
+
+</resources>
